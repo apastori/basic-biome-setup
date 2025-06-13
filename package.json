@@ -1,0 +1,25 @@
+{
+  "name": "small-scripting-language-ts",
+  "version": "1.0.0",
+  "description": "small scripting language build with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "biome lint ./src",
+    "lint:fix": "biome lint --write ./src",
+    "format": "biome format ./src",
+    "format:fix": "biome format --write ./src",
+    "check": "biome check ./src",
+    "check:fix": "biome check --write ./src"
+  },
+  "keywords": [],
+  "author": "apastori",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.8.3"
+  }
+}
